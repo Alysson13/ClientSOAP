@@ -7,11 +7,14 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 
-import br.com.indra.entidades.BuscaPessoaResponse;
+import br.com.indra.teste.BuscaPessoaResponse;
 import br.com.indra.ws.cliente.BuscaPessoaClient;
 
+
+
+
 @SpringBootApplication
-@ComponentScan("br.com.indra.ws.cliente")
+@ComponentScan("br.com.indra.*")
 public class Application {
 
 	public static void main(String[] args){

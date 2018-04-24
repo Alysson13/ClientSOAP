@@ -47,6 +47,9 @@
     			</executions>
     			<configuration>
         			<schemaLanguage>WSDL</schemaLanguage>
+        			<extension>true</extension>
+        			<bindingDirectory>${basedir}/src/main/resources/jaxb</bindingDirectory>
+        			<bindingFiles>simple-binding.xjb</bindingFiles>
         			<generatePackage>teste.wsdl</generatePackage>
         			<schemaIncludes>
             			<include>*.wsdl</include>
